@@ -120,12 +120,12 @@ class _AnimatedMenuButtonItemState extends State<AnimatedMenuButtonItem> {
 
     TextStyle textStyle;
     if (enabled) {
-      textStyle = Theme.of(context).textTheme.bodyText2!.copyWith(
+      textStyle = Theme.of(context).textTheme.bodyMedium!.copyWith(
             color:
                 _hover || (_selected && _flashing) ? Colors.transparent : null,
           );
     } else {
-      textStyle = Theme.of(context).textTheme.bodyText2!.copyWith(
+      textStyle = Theme.of(context).textTheme.bodyMedium!.copyWith(
             color: Theme.of(context).disabledColor,
           );
     }
