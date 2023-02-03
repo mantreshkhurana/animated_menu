@@ -45,34 +45,37 @@ class _MyHomePageState extends State<MyHomePage> {
                     useRootNavigator: true,
                     menu: AnimatedMenu(
                       items: [
-                        FadeIn(
-                          child: Material(
-                            borderRadius: BorderRadius.circular(10),
-                            child: Container(
-                              height: 170,
-                              width: 200,
-                              decoration: BoxDecoration(
-                                color: Colors.white,
-                                borderRadius: BorderRadius.circular(10),
-                              ),
-                              child: Column(
-                                children: const [
-                                  SizedBox(height: 10),
-                                  Text('Item 1'),
-                                  Divider(),
-                                  Text('Item 2'),
-                                  Divider(),
-                                  Text('Item 3'),
-                                  Divider(),
-                                  Text('Item 4'),
-                                  Divider(),
-                                  Text('Item 5'),
-                                  SizedBox(height: 10),
-                                ],
-                              ),
-                            ),
-                          ),
+                        AnimatedMenuButtonItem(
+                          child: const Text('Item 1'),
                         ),
+                        // FadeIn(
+                        //   child: Material(
+                        //     borderRadius: BorderRadius.circular(10),
+                        //     child: Container(
+                        //       height: 170,
+                        //       width: 200,
+                        //       decoration: BoxDecoration(
+                        //         color: Colors.white,
+                        //         borderRadius: BorderRadius.circular(10),
+                        //       ),
+                        //       child: Column(
+                        //         children: const [
+                        //           SizedBox(height: 10),
+                        //           Text('Item 1'),
+                        //           Divider(),
+                        //           Text('Item 2'),
+                        //           Divider(),
+                        //           Text('Item 3'),
+                        //           Divider(),
+                        //           Text('Item 4'),
+                        //           Divider(),
+                        //           Text('Item 5'),
+                        //           SizedBox(height: 10),
+                        //         ],
+                        //       ),
+                        //     ),
+                        //   ),
+                        // ),
                       ],
                     ),
                   );
