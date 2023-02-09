@@ -11,13 +11,6 @@ const menuPadding = 0.0;
 
 /// Creates a [AnimatedMenu] that can be opened and closed.
 class AnimatedMenu extends StatefulWidget {
-  AnimatedMenu({
-    required this.items,
-    this.width,
-    this.borderRadius = 0,
-    Key? key,
-  }) : super(key: key);
-
   /// The items to display in the [AnimatedMenu].
   var items;
 
@@ -26,6 +19,13 @@ class AnimatedMenu extends StatefulWidget {
 
   /// The border radius of the [AnimatedMenu].
   final double borderRadius;
+
+  AnimatedMenu({
+    required this.items,
+    this.width,
+    this.borderRadius = 0,
+    Key? key,
+  }) : super(key: key);
 
   @override
   State<AnimatedMenu> createState() => _AnimatedMenuState();

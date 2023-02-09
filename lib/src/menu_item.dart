@@ -111,7 +111,9 @@ class _PopupMenuRoute extends PopupRoute {
               Directionality.of(context),
               mediaQuery.padding,
             ),
-            child: capturedThemes.wrap(menu),
+            child: capturedThemes.wrap(
+              menu,
+            ),
           );
         },
       ),
