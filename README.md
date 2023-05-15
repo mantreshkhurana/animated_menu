@@ -9,11 +9,11 @@ Use `AnimatedMenu` to create a menu with/without animation. You can use `FadeIn`
 
 ## Installation
 
-Add `animated_menu: ^1.0.1` in your project's pubspec.yaml:
+Add `animated_menu: ^1.0.2` in your project's pubspec.yaml:
 
 ```yaml
 dependencies:
-  animated_menu: ^1.0.1
+  animated_menu: ^1.0.2
 ```
 
 ## Usage

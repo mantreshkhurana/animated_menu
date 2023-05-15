@@ -1,11 +1,11 @@
 name: animated_menu
 description: A flutter package that will help you to create animated menu with ease.
-version: 1.0.1
+version: 1.0.2
 homepage: https://github.com/mantreshkhurana/animated_menu
 repository: https://github.com/mantreshkhurana/animated_menu
 
 environment:
-  sdk: '>=2.18.6 <3.0.0'
+  sdk: '>=2.18.6 <4.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
