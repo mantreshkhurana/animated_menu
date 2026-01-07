@@ -1,25 +1,28 @@
 name: animated_menu
-description: A flutter package that will help you to create animated menu with ease.
-version: 1.0.2
+description: A professional Flutter package for creating beautiful, animated popup menus with smooth corners, backdrop blur, and customizable animations.
+version: 1.0.3
 homepage: https://github.com/mantreshkhurana/animated_menu
 repository: https://github.com/mantreshkhurana/animated_menu
+issue_tracker: https://github.com/mantreshkhurana/animated_menu/issues
+
+topics:
+  - menu
+  - popup
+  - animation
+  - widgets
 
 environment:
-  sdk: '>=2.18.6 <4.0.0'
-  flutter: ">=1.17.0"
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
-  figma_squircle: ^0.5.3
-  animate_do: ^3.0.2
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-  flutter_lints: ^2.0.0
+  flutter_lints: ^5.0.0
 
 flutter:
   uses-material-design: true
